@@ -1,0 +1,51 @@
+body{
+margin: 0;
+}
+header{
+background-color: #061125;
+overflow: hidden;
+}
+header nav{
+text-align: center;
+}
+header nav li{
+list-style: none;
+}
+header nav li a{
+text-decoration: none;
+font-size: 26px;
+color: white;
+}
+#main{
+max-width: 1200px;
+height: 600px;
+margin: 24px auto;
+background-repeat: no-repeat;
+background-size: cover;
+ 
+}
+main h1{
+text-align: center;
+font-size: 66px;
+}
+main p{
+font-size: 24px;
+color: #061125;
+font-weight: bolder;
+padding: 6px;
+}
+main h2{
+text-align: center;
+font-size: 66px;
+color: #061125;
+}
+ @media (min-width: 300px) and (max-width: 600px) {
+  #main {
+    max-width: 1200px;
+    padding: 16px;
+    height: 600px;
+    margin: 24px auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
